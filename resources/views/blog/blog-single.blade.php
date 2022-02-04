@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>DevFolio Bootstrap Template</title>
+  <title>COSAS QUE ME GUSTAN</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -36,7 +36,7 @@
   <!--/ Nav Star /-->
   <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">BlasterUp</a>
+      <a class="navbar-brand js-scroll" href="#page-top">BLOG</a>
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
         aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span></span>
@@ -46,7 +46,7 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="index.html">Home</a>
+            <a class="nav-link js-scroll" href="index.html">INICIO</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#">About</a>
@@ -75,15 +75,9 @@
     <div class="intro-content display-table">
       <div class="table-cell">
         <div class="container">
-          <h2 class="intro-title mb-4">Blog Details</h2>
+          <h2 class="intro-title mb-4">COSAS QUE ME GUSTAN</h2>
           <ol class="breadcrumb d-flex justify-content-center">
-            <li class="breadcrumb-item">
-              <a href="#">Home</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a href="#">Library</a>
-            </li>
-            <li class="breadcrumb-item active">Data</li>
+            
           </ol>
         </div>
       </div>
@@ -101,7 +95,7 @@
               <img src="img/post-1.jpg" class="img-fluid" alt="">
             </div>
             <div class="post-meta">
-              <h1 class="article-title">Lorem ipsum dolor sit amet consec tetur adipisicing</h1>
+              <h1 class="article-title">Esto son lgunas cosas que hago en mi tiempo libre</h1>
               <ul>
                 <li>
                   <span class="ion-ios-person"></span>
@@ -125,138 +119,14 @@
               <p>
                 me gusta salir con mis amigos a jugar futbol y jugar a las maquinitas que estan cerca de mi casa, ya que es muy divertido pasar tiempo con mis amigos y reirnos un tiempo.
               </p>
-              <p>
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Praesent
-                sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                sem. Donec rutrum congue leo eget malesuada.
-              </p>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat.
-                Curabitur arcu erat,
-                accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor
-                volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium
-                ut lacinia in, elementum id enim.
-              </p>
-              <blockquote class="blockquote">
-                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-              </blockquote>
-              <p>
-                Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris blandit
-                aliquet elit, eget tincidunt
-                nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit. Donec sollicitudin molestie malesuada.
-              </p>
+              
+              
             </div>
           </div>
-          <div class="box-comments">
-            <div class="title-box-2">
-              <h4 class="title-comments title-left">Comments (34)</h4>
-            </div>
-            <ul class="list-comments">
-              <li>
-                <div class="comment-avatar">
-                  <img src="img/testimonial-2.jpg" alt="">
-                </div>
-                <div class="comment-details">
-                  <h4 class="comment-author">Oliver Colmenares</h4>
-                  <span>18 Sep 2017</span>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                    ipsam temporibus maiores
-                    quae natus libero optio, at qui beatae ducimus placeat debitis voluptates amet corporis.
-                  </p>
-                  <a href="3">Reply</a>
-                </div>
-              </li>
-              <li>
-                <div class="comment-avatar">
-                  <img src="img/testimonial-4.jpg" alt="">
-                </div>
-                <div class="comment-details">
-                  <h4 class="comment-author">Carmen Vegas</h4>
-                  <span>18 Sep 2017</span>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                    ipsam temporibus maiores
-                    quae natus libero optio, at qui beatae ducimus placeat debitis voluptates amet corporis,
-                    veritatis deserunt.
-                  </p>
-                  <a href="3">Reply</a>
-                </div>
-              </li>
-              <li class="comment-children">
-                <div class="comment-avatar">
-                  <img src="img/testimonial-2.jpg" alt="">
-                </div>
-                <div class="comment-details">
-                  <h4 class="comment-author">Oliver Colmenares</h4>
-                  <span>18 Sep 2017</span>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                    ipsam temporibus maiores
-                    quae.
-                  </p>
-                  <a href="3">Reply</a>
-                </div>
-              </li>
-              <li>
-                <div class="comment-avatar">
-                  <img src="img/testimonial-2.jpg" alt="">
-                </div>
-                <div class="comment-details">
-                  <h4 class="comment-author">Oliver Colmenares</h4>
-                  <span>18 Sep 2017</span>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores reprehenderit, provident cumque
-                    ipsam temporibus maiores
-                    quae natus libero optio.
-                  </p>
-                  <a href="3">Reply</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="form-comments">
-            <div class="title-box-2">
-              <h3 class="title-left">
-                Leave a Reply
-              </h3>
-            </div>
-            <form class="form-mf">
-              <div class="row">
-                <div class="col-md-6 mb-3">
-                  <div class="form-group">
-                    <input type="text" class="form-control input-mf" id="inputName" placeholder="Name *" required>
-                  </div>
-                </div>
-                <div class="col-md-6 mb-3">
-                  <div class="form-group">
-                    <input type="email" class="form-control input-mf" id="inputEmail1" placeholder="Email *" required>
-                  </div>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <div class="form-group">
-                    <input type="url" class="form-control input-mf" id="inputUrl" placeholder="Website">
-                  </div>
-                </div>
-                <div class="col-md-12 mb-3">
-                  <div class="form-group">
-                    <textarea id="textMessage" class="form-control input-mf" placeholder="Comment *" name="message"
-                      cols="45" rows="8" required></textarea>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
+          
         <div class="col-md-4">
           <div class="widget-sidebar sidebar-search">
-            <h5 class="sidebar-title">Search</h5>
+            <h5 class="sidebar-title">Buscar</h5>
             <div class="sidebar-content">
               <form>
                 <div class="input-group">
@@ -271,23 +141,22 @@
             </div>
           </div>
           <div class="widget-sidebar">
-            <h5 class="sidebar-title">Recent Post</h5>
+            <h5 class="sidebar-title">Juegos que me gustan</h5>
             <div class="sidebar-content">
               <ul class="list-sidebar">
                 <li>
-                  <a href="#">Atque placeat maiores.</a>
+                  <a href="#">Halo</a>
                 </li>
                 <li>
-                  <a href="#">Lorem ipsum dolor sit amet consectetur</a>
+                  <a href="#">Fortnite</a>
                 </li>
                 <li>
-                  <a href="#">Nam quo autem exercitationem.</a>
+                  <a href="#">Gears of wars</a>
+                </li>
+                <li>GTA V</a>
                 </li>
                 <li>
-                  <a href="#">Atque placeat maiores nam quo autem</a>
-                </li>
-                <li>
-                  <a href="#">Nam quo autem exercitationem.</a>
+                  <a href="#"></a>
                 </li>
               </ul>
             </div>
