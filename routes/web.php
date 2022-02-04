@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/inicio', function () {
+Route::get('/', function () {
     return view('blog.index');
-}) -> name('inicio');
+}) -> name('index');
 
 
 Route::get('/blog', function () {
