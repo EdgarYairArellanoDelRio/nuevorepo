@@ -19,8 +19,8 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
+							<li><a href="#intro">Bienvenidos</a></li>
+							<li><a href="#one">Unidades</a></li>
 							<li><a href="#two">What we do</a></li>
 							<li><a href="#three">Get in touch</a></li>
 						</ul>
@@ -34,11 +34,10 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-							<h1>Hyperspace</h1>
-							<p>Just another fine responsive site template designed by <a href="http://html5up.net">HTML5 UP</a><br />
-							and released for free under the <a href="http://html5up.net/license">Creative Commons</a>.</p>
+							<h1>BLOG DE LOS TEMAS DE UNIDAD 1 Y 2</h1>
+							<p>En este blog se encontraran los temas de la unidad 1 y de la unidad 2 de la materia de cliente-servidor</a>.</p>
 							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
+								<li><a href="#one" class="button scrolly">Temas</a></li>
 							</ul>
 						</div>
 					</section>
@@ -49,10 +48,10 @@
 							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Unidad 1</h2>
+									<p>Temas de la unidad 1 de la materia de cliente-servidor</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="{{route('generic')}}" class="button">Leer más</a></li>
 									</ul>
 								</div>
 							</div>
@@ -61,10 +60,10 @@
 							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
 							<div class="content">
 								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
+									<h2>Unidad 2</h2>
+									<p>Temas de la unidad 2 de cliente servidor</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
+										<li><a href="{{route('generic2')}}" class="button">Leer más</a></li>
 									</ul>
 								</div>
 							</div>

@@ -20,6 +20,10 @@ Route::get('/', function () {
 }) -> name('index');
 
 
-Route::get('/blog', function () {
-    return view('blog.blog-single');
-}) -> name('blog');
+Route::get('/generic', function () {
+    return view('blog.generic');
+}) -> name('generic');
+
+Route::get('/generic2', function () {
+    return view('blog.generic2');
+}) -> name('generic2');
