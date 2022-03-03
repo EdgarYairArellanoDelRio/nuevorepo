@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Hyperspace by HTML5 UP</title>
+		<title>unidad 1</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,10 +16,10 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="title">Hyperspace</a>
+				<a href="index.html" class="title">UNIDAD 1</a>
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="{{route('index')}}">Inicio</a></li>
 						<li><a href="generic.html" class="active">Generic</a></li>
 						<li><a href="elements.html">Elements</a></li>
 					</ul>
@@ -32,14 +32,44 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">A Generic Page</h1>
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<h1 class="major">Unidad 1 - Cliente Servidor</h1>
+							<span class="image fit"><img src="images/pic07.jpg" alt="" /></span>
+							<h2 class="major">Reconocer los conceptos de sistems de información</h2>
+							<p>Un sistema de información tiene como principal objetivo la gestión, y administración de los datos e información que lo componen.</p>
+							<h2 class="major">Reconocer la evolución de los sistemas de información</h2>
+							<h3>Procesamiento de datos  ( 1 9 5 0 - 1 9 6 0 )</h3>
+							<p>Los componentes del sistema de información permiten una serie de procesos que consisten en: la entrada de los datos, la gestión y el procesamiento de estos, el almacenamiento y la salida para todos aquellos interesados que deseen tener acceso a este tipo de información.</p>
+							<span class="image" aling="center"><img src="images/pic08.jpg" alt="" /></span>
+							<h3>Informes de Gestión ( 1 9 6 0 - 1 9 7 0 )</h3>
+							<p>Los componentes del sistema de información permiten una serie de procesos que consisten en: la entrada de los datos, la gestión y el procesamiento de estos, el almacenamiento y la salida para todos aquellos interesados que deseen tener acceso a este tipo de información.</p>
+							<h3>Apoyo a las Decisiones ( 1 9 7 0 - 1 9 8 0 )</h3>
+							<p>Soporte ad-hoc interactivo para el proceso de toma de decisiones Ayuda a los gerentes senior</p>
+							<h3>Apoyo Ejecutivo ( 1 9 8 0 - 1 9 9 0 )</h3>
+							<p>Proporcione información interna y externa relevante para los objetivos estratégicos de la organización Ayuda a los ejecutivos.</p>
+							<h3>Apoyo a la Gestión de la Calidad ( 1 9 9 0 - 2 0 0 0 )</h3>
+							<p>Apoya la creación, organización y diseminación del conocimiento empresarial Ayuda disponible para toda la empresa.</p>
+							<h3>E-BUSINESS ( 2 0 0 0 - 2 0 1 0 )</h3>
+							<P>Mayor conectividad, mayor nivel de integración en todas las aplicaciones Ayuda al comercio electrónico global.</P>
+							
+
+							<h2>CONCEPTOS DE CLIENTE SERVIDOR</h2>
+
+							<h3>¿qué es un cliente?</h3>
+							<P>El cliente es un computador pequeño con una estructura al igual a la que tenemos en nuestras oficinas u hogares la cual accede a un servidor o a los servicios del mismo a través de Internet o una red interna.</P>
+							<h3>¿qué es un servidor?</h3>
+							<P>El servidor es una computadora que tiene una gran capacidad que le permite almacenar gran cantidad de diversos de archivos, o correr varias aplicaciones en simultaneo para así nosotros los clientes poder acceder los servicios.</P>
+							
+							<h3> Definir los sistemas de computadoras centrales y dedicadas </h3>
+							<h4>central</h4>
+							<p>Es una computadora grande, potente y costosa, usada principalmente para el procesamiento de una gran cantidad de datos </p>
+							<h4>dedicada</h4>
+							<p>Es un equipo informático físico que destina todos sus recursos a proporcionar información y atender las peticiones de otro ordenador (cliente) que ha contratado sus servicios</p>
+
 						</div>
 					</section>
 
 			</div>
+			
 
 		<!-- Footer -->
 			<footer id="footer" class="wrapper alt">
