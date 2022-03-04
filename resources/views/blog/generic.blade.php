@@ -21,7 +21,7 @@
 					<ul>
 						<li><a href="{{route('index')}}">Inicio</a></li>
 						<li><a href="{{route('generic')}}" class="active">Generic</a></li>
-						<li><a href="{{route('elements')}}">Elements</a></li>
+						
 					</ul>
 				</nav>
 			</header>
