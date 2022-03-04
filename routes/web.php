@@ -27,3 +27,7 @@ Route::get('/generic', function () {
 Route::get('/generic2', function () {
     return view('blog.generic2');
 }) -> name('generic2');
+
+Route::get('/elements', function () {
+    return view('blog.elements');
+}) -> name('elements');

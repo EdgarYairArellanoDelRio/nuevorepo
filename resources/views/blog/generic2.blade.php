@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Hyperspace by HTML5 UP</title>
+		<title>unidad 2</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -16,12 +16,12 @@
 
 		<!-- Header -->
 			<header id="header">
-				<a href="index.html" class="title">Hyperspace</a>
+				<a href="index.html" class="title">Unidad 2</a>
 				<nav>
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="generic.html" class="active">Generic</a></li>
-						<li><a href="elements.html">Elements</a></li>
+						<li><a href="{{route('index')}}">inicio</a></li>
+						<li><a href="{{route('generic2')}}" class="active">Generic</a></li>
+						<li><a href="{{route('elements')}}">Elements</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -32,10 +32,104 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">A Generic Page</h1>
-							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<h1 class="major">Unidad 2 - cliente servidor</h1>
+							<span class="image fit"><img src="images/pic09.png" alt="" /></span>
+							<h3>REPRESENTACION DISCTRIBUIDA</h3>  
+                            <p>Es la comunicación que tiene el usuario con el servidor, por medio del cliente que funciona como puente.</p>
+                            <p>El cliente se encarga de formatear los datos que recibe para poder interactuar con el usuario. Dentro del servidor está la lógica de la aplicación y la BD.</p>
+                            <h3>LOGICA DISTRIBUIDA</h3>
+                            <p>Es un proceso en el que el cargado de interactuar con el usuario y de realizar funciones triviales es el cliente. </p>
+                            <h3>BASES DE DATOS DISTRIBUIDAS</h3>
+                            <p>En esta parte el usuario se encarga de realizar diferentes acciones: </p>
+                            <lu>
+
+                                    <li>Interactuar con el usuario</li>
+                                    <li>Ejecutar la aplicacion</li>
+                                    <li>Conocer la forma en la que está conectada la red</li>
+
+                            </lu>
+                            <h3>ACCESO DE DATOS REMOTOS</h3>
+                            <p>La tecnología que permite que dispositivos que no se encuentran dentro del mismo entorno, puedan acceder al servidor por medio de una red virtual.</p>
+                            <h3>LÓGICA DE ACCESO</h3>
+                            <p>Es la línea de defensa con la que cuentan los sistemas para prevenir que ingresen a la información personas que no estén autorizadas, haciendo uso de la identificación y autentificación.</p>
+                            <h3>PRESENTACIÓN</h3>
+                            <p>Tambien es llamada "capa web", es la que se encarga de presentarle el sistema al usuario, le comunica la información y captura la información que introduce.</p>
+                            <h3>PROCESO DE DISEÑO DE LOGICA DE ACCESO A DATOS</h3>
+                            <p>Es la fase en la que diseñan las tablas,filas,columnas y relaciones que llevará la BD, pa ello se deben seguirlos siguientes principios:</p>
+                            <ul>
+                                <li>Organización de las tablas</li>
+                                <li>Diseño dellaves primarias y secundarias</li>
+                                <li>Diseño de relaciones entre tablas</li>
+                                <li>Normalización que cumpla estandares industriales </li>
+                                <ol>
+                                    <li>Primera forma normal</li>
+                                    <li>Segunda forma normal</li>
+                                    <li>Tercera forma normal</li>
+                            </ol>
+                                
+                            </ul>
+                            <h3>PROCESO DE DISEÑO DE LOGICA DE PRESENTACIÓN</h3>
+                            <p>Se deben de tener en cuenta los siguientes aspectos</p>
+                            <ol>
+                                <li>Parte visual</li>
+                                <ul>
+                                    <li>Debe de existir consistencia</li>
+                                    <li>Usar correctamente los tipos de letras</li>
+                                    <li>Tener buena gramática</li>
+                                    <li>Aplicar el significado de los colores</li>
+                                    <li>Debe ser accesible para todo tipo de personas</li>
+                                    <li>Contener información fiable</li>
+                                </ul>
+                                <li>Parte funcional</li>
+                                <ul>
+                                    <li>Facilidad para navegar</li>
+                                    <li>Diseño ergonómico</li>
+                                    <li>Contener herramientas de ayuda</li>
+                                    <li>Operaciones rápidas</li>
+                                    
+                            </ol>
+                           <h3>PROCESO DE DISEÑO DE LOGICA DE NEGOCIO</h3>
+                           <p>Se procesa la informacion que se obtuvo en el proceso de presentación por medio de un conjunto de reglas. se pueden realizar acciones como añadir, suprimir o modificar los datos.</p>
+                            <h3>PROCESO DE DESARROLLO DE LOGICA DE ACCESO A DATOS</h3>
+                            <p>Se puede contar con uno o dos gestores de BD que pueden almacenar, recibir solicitudes de almacenaje o recuperar datos. Dentro del proceso existen funciones como:</p>
+                            <ul>
+                                <li>Almacenar datos</li>
+                                <li>Recuperar datos</li>
+                                <li>Eliminar datos</li>
+                                <li>Modificar datos</li>
+                                <li>Consultar datos</li>
+                            </ul>
+
+                            <h3>PROCESO DE DESARROLLO DE LOGICA DE PRESENTACIÓN</h3>
+                            <ol>
+                                <li>Formatear los datos (traducir dos tipos de códigos, binario y ASCCI)</li>
+                                <li>Cifrar los datos</li>
+                                <li>Comprimir los datos</li>
+                                <li>Definir la estructura de los datos por transmitir</li>
+                                
+                            </ol>
+                            <h3>PROCESO DE DESARROLLO DE LOGICA DE NEGOCIO</h3>
+                            <p>Los componentes deben de funcionar de manera independiente a los repositorios de datos. Se proporcionan funciones y operaciones de encapsulan la lógica. Para ello de debe:</p>
+                            <ol>
+                                <li>Permitir que la interfaz mande a llamar el proceso</li>
+                                <li>Validar las entradas y las salidas</li>
+                                <li>Mandar a llamar a la informacion que se tiene en el acceso a datos y asi poder obtener o actualizar los datos.</li>
+                            </ol>
+                            <h3>NIVEL</h3>
+                            <P>Es la repartición de roles dentro de un grupo de máquinas, clientes y uno o varios servidores.</P>
+                            <h3>PROCESO DE PLANIFICACIÓN DE DOS CAPAS</h3>
+                            <P>En esta capa solo se utiliza un cliente y un servidor, el cliente absorve los servicios de un servidor el cual:</P>
+                            <ul>
+                                <li>Sirve de datos</li>
+                                <li>Sirve de lógica</li>
+                                <li>Sirve de información al cliente</li>
+                            </ul>
+
+                            <h3>PROCESO DE PLANIFICACIÓN DE TRES CAPAS</h3>
+                            <P>En este proceso se absorben los recursos del Midelware, que funciona como intermediario con otro equipo de almacenamiento y se encarga de la parte lógica.</P>
+
+
+
 						</div>
 					</section>
 
